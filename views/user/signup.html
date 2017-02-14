@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+<head>
+    <meta charset="UTF-8">
+    <title>微信</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/public/css/weui.css">
+    <link rel="stylesheet" href="/public/css/reset.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body ontouchstart="">
+
+<header class="clear sign_header" id="header">
+    <span class="fl">注册</span>
+
+</header>
+
+
+<form id="formSubmit" method="post" enctype="multipart/form-data">
+
+    <div class="sign_form weui_cells weui_cells_form">
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label class="weui_label">账号</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" type="text" placeholder="请输入账号" id="signup_name" name="username">
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label class="weui_label">密码</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" type="password" name="password" placeholder="请输入密码" id="signup_password">
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label class="weui_label">上传头像</label></div>
+            <div class="weui_uploader_input_wrp" style="margin-bottom: 0;">
+                <input class="weui_uploader_input" accept="image/*" type="file" id="input_img" name="avatar">
+            </div>
+            <div class="weui_cell_bd" style="border:1px solid #ccc;width:77px;height:77px;" id="signup_avatar"></div>
+        </div>
+
+        <div class="weui_btn_area">
+            <button class="weui_btn weui_btn_primary" type="submit" id="btn_signup">确定</button>
+        </div>
+    </div>
+</form>
+
+
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/GLOBAL.js"></script>
+<script src="/public/js/user.js"></script>
+</body>
+</html>

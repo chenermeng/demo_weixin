@@ -1,0 +1,42 @@
+
+</div>
+<footer id="footer" data-role="footer">
+    <div class="container" id="container">
+        <div class="tabbar">
+            <div class="weui_tab">
+                <div class="weui_tabbar">
+                    <a href="/index/weixin" class="weui_tabbar_item <%=locals.isweixin?'weui_bar_item_on':''%>" data-rel="auto">
+                        <div class="weui_tabbar_icon">
+                            <span class="iconfont button-icon">&#xe62b;</span>
+                        </div>
+                        <p class="weui_tabbar_label">微信</p>
+                    </a>
+                    <a href="/index/phonebook"class="weui_tabbar_item <%=locals.isphonebook?'weui_bar_item_on':null %>" data-rel="auto">
+                        <div class="weui_tabbar_icon">
+                            <span class="iconfont button-icon">&#xe62d;</span>
+                        </div>
+                        <p class="weui_tabbar_label">通讯录</p>
+                    </a>
+                    <a href="/index/discover" class="weui_tabbar_item <%=locals.isdiscover?'weui_bar_item_on':null %>" data-rel="auto" data-hash="discover">
+                        <div class="weui_tabbar_icon">
+                            <span class="iconfont button-icon">&#xe62f;</span>
+                        </div>
+                        <p class="weui_tabbar_label">发现</p>
+                    </a>
+                    <a href="/index/myself" class="weui_tabbar_item <%=locals.ismyself?'weui_bar_item_on':'' %>" data-rel="auto" data-hash="myself">
+                        <div class="weui_tabbar_icon">
+                            <span class="iconfont button-icon">&#xe62a;</span>
+                        </div>
+                        <p class="weui_tabbar_label">我</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+<script src="/public/js/jquery.js"></script>
+<!--<script src="/public/js/index.js"></script>-->
+</body>
+</html>

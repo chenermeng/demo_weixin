@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+<head>
+    <meta charset="UTF-8">
+    <title>微信</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/public/css/weui.css">
+    <link rel="stylesheet" href="/public/css/reset.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+
+<body ontouchstart="" id="my-body">
+
+<header class="clear" id="header" data-role="header">
+    <a href="/index/myself"><span class="fl" id="aaa">返回</span></a>
+</header>
+<!--
+<form id="formSubmit" method="post" enctype="multipart/form-data">-->
+
+    <div class="my">
+        <div class="weui_cells weui_cells_access"><a href="javascript:void(0);"
+                                                     class="weui_media_box weui_media_appmsg">
+            <div class="weui_media_bd">
+                <h4 class="weui_media_title">头像</h4>
+            </div>
+            <div class="weui_media_hd">
+                <img src='' alt="" id="user_avatar">
+            </div>
+        </a>
+            <a class="weui_cell" href="javascript:;" id="nickname">
+                <div class="weui_cell_bd weui_cell_primary">昵称</div>
+                <div class="weui_cell_ft"></div>
+            </a>
+            <a class="weui_cell" href="javascript:;">
+                <div class="weui_cell_bd weui_cell_primary">微信号</div>
+                <div class="weui_cell_ft" id="user_name"></div>
+            </a>
+            <a class="weui_cell" href="javascript:;">
+                <div class="weui_cell_bd weui_cell_primary">二维码</div>
+                <div><img src="/public/images/erweima.jpg" class="" alt="" style="width:50px; vertical-align: middle;">
+                </div>
+            </a>
+            <a class="weui_cell" href="javascript:;" id="address">
+                <div class="weui_cell_bd weui_cell_primary">我的地址</div>
+                <div class="weui_cell_ft"></div>
+            </a>
+        </div>
+        <div class="weui_cells weui_cells_access">
+            <a class="weui_cell" href="javascript:;" id="gender">
+                <div class="weui_cell_bd weui_cell_primary">性别</div>
+                <div class="weui_cell_ft"></div>
+            </a>
+            <a class="weui_cell" href="javascript:;" id="region">
+                <div class="weui_cell_bd weui_cell_primary">地区</div>
+                <div class="weui_cell_ft">
+                </div>
+            </a>
+            <a class="weui_cell" href="javascript:;" id="signname">
+                <div class="weui_cell_bd weui_cell_primary">个性签名</div>
+                <div class="weui_cell_ft"></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="weui_cells " style="padding: 15px 25%;margin:20px auto;text-align: justify;">
+        <button class="weui_btn weui_btn_plain_primary" id="btn_userSettings">提交</button>
+    </div>
+
+<!--</form>-->
+
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/GLOBAL.js"></script>
+<script src="/public/js/index.js"></script>
+</body>
+</html>

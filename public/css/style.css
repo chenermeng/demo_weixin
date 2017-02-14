@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('http://at.alicdn.com/t/font_1462869301_2703366.eot'); /* IE9*/
+    src: url('http://at.alicdn.com/t/font_1462869301_2703366.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://at.alicdn.com/t/font_1462869301_2703366.woff') format('woff'), /* chrome、firefox */ url('http://at.alicdn.com/t/font_1462869301_2703366.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('http://at.alicdn.com/t/font_1462869301_2703366.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: iconfont;
+    font-size: 16px;
+    color: #666;
+}
+
+a, input {
+    outline: none;
+}
+
+.clear::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.bgcolor-green {
+    background-color: #45c01a;
+}
+
+.bgcolor-yellow {
+    background-color: #FA9D3B;
+}
+
+.bgcolor-blue {
+    background-color: #2782d7;
+}
+
+.bgcolor-red {
+    background-color: #F86161
+}
+
+.color-green {
+    color: #45c01a !important;
+}
+
+.color-lightyellow {
+    color: #FFCA00;
+}
+
+.color-yellow {
+    color: #FA9D3B !important;
+}
+
+.color-blue {
+    color: #2782d7 !important;
+}
+
+.color-red {
+    color: #F86161 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.weui_media_bd {
+    font-size: 18px;;
+}
+
+body {
+    background: #EBEBEB;
+}
+
+#content {
+    background: #EBEBEB;
+}
+
+.content {
+    position: absolute;
+    top: 48px;
+    bottom: 55px;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+html, body {
+    height: 100%;;
+}
+
+/*loading*/
+
+/* 头部*/
+
+#header {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    background: #000;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#header span {
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#header span:nth-of-type(1) {
+    padding-left: 0.8rem;
+}
+
+#header span:nth-of-type(2) {
+    margin: 0 1.2rem 0;
+}
+
+/*内容*/
+/*.tab-content {overflow: hidden;}
+.tab-content section { display: none;}*/
+.msg-item .weui_media_box {
+    padding: 10px 15px;
+    position: relative;
+}
+
+.msg-item .weui_media_box .msg-time {
+    color: #C7C7C7;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+/*微信*/
+.weixin .msg-item {
+    background: #fff;
+}
+
+.weixin .active {
+    background: #E5E5E5;;
+}
+
+/*通讯录*/
+.phonebook {
+    background: #EBEBEB;
+}
+
+.phonebook .phone-wrap {
+    background: #fff;
+    margin-bottom: 2rem;
+}
+
+.phonebook .phone-wrap:nth-last-of-type(1) {
+    margin-bottom: 1rem;
+}
+
+.phonebook .weui_media_hd {
+    margin: 0;
+}
+
+.phonebook .weui_media_hd span {
+    font-size: 44px;
+    color: #FFF;
+    margin-left: -20px;
+}
+
+.phonebook .weui_media_bd p {
+    font-weight: bold;
+}
+
+.phonebook .weui_media_box {
+    padding: 0;
+    margin: 0 1.8rem;
+}
+
+/*.phonebook .phone-wrap:nth-of-type(1) .weui_media_box { border-bottom: 1px solid #d9d9d9;}*/
+.phonebook .phone-wrap .img-wrap {
+    width: 40px;
+    height: 40px;
+}
+
+/*发现*/
+.discover {
+    background: #EBEBEB;
+}
+
+.discover .discover-wrap .weui_media_hd span {
+    font-size: 32px;
+    color: #FFF;
+    margin-left: -20px;
+}
+
+.discover .discover-wrap {
+    background: #fff;
+    margin: 1rem 0;
+}
+
+.discover .discover-wrap .img-wrap {
+    width: 40px;
+    height: 40px;;
+}
+
+.discover .discover-wrap .weui_media_hd span {
+    font-size: 34px;
+    color: #FFF;
+    margin-left: 0;
+}
+
+.discover .discover-wrap .weui_media_bd {
+    font-weight: bold;
+}
+
+.discover .discover-wrap .weui_media_box {
+    height: 44px;
+    padding: 5px 0;
+    margin: 0 1rem
+}
+
+.discover .discover-wrap .msg-item {
+    margin: 5px 0;
+}
+
+/*我自己*/
+.myself {
+}
+
+.myself .myself-wrap {
+    margin-top: 1rem;
+}
+
+.myself .myself-wrap .iconfont {
+    font-size: 24px
+}
+
+.myself .myself-wrap {
+    background: #fff;
+    margin: 1.5rem 0;
+}
+
+.myself .myself-wrap:not(:first-child) .weui_media_box {
+    height: 44px;
+    padding: 5px 0;
+    margin: 0 1rem
+}
+
+.myself .myself-wrap .weui_media_bd p {
+    font-weight: bold;
+}
+
+/*底部tab*/
+#footer {
+    width: 100%;;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+.button-icon {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/*个人信息页*/
+.my {
+    padding-top: 3rem;
+}
+
+/*注册*/
+.sign_form {
+    margin-top:3rem;
+}
+
+/*登录*/
+.signin {
+    padding-top:3rem;
+    margin:0;
+    height:100%;
+    box-sizing: border-box;
+}
+.signin .weui_cell {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
